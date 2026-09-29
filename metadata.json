@@ -1,0 +1,8 @@
+{
+  "name": "Olamide Olatunde | Portfolio",
+  "description": "Portfolio website of Olamide Olatunde (OlaByt), web designer and developer featuring HandyNG, ObytChat, Banking UI, OWeather, Sandlip Clockin System, and more.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

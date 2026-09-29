@@ -2,119 +2,359 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Olamide Olatunde | Portfolio</title>
+  <meta name="description" content="Portfolio website of Olamide Olatunde (OlaByt), web designer and developer featuring HandyNG, ObytChat, Banking UI, OWeather, Sandlip Clockin System, and more.">
+  <meta property="og:title" content="Olamide Olatunde | Portfolio">
+  <meta property="og:description" content="Portfolio website of Olamide Olatunde (OlaByt), web designer and developer featuring HandyNG, ObytChat, Banking UI, OWeather, Sandlip Clockin System, and more.">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="OlaByt.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
   <div class="main">
-    <div class="navbar">
-      <img src="OlaByt.png" class="logo" alt="Logo">
-      <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="logo-link" aria-label="Home">
+          <img src="OlaByt.png" class="logo" alt="OlaByt Logo">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="hero" id="home">
-      <div class="info">
-        <h3>Hi, I'm <span>Olamide Olatunde</span> known as <span> OlaByt</span></h3>
-        <h1>Web <span>Designer</span> & Developer</h1>
-        <p>Passionate about creating beautiful and functional websites with modern design, smooth interactions, and strong branding.</p>
-        <a href="#contact" class="btn">Hire Me</a>
-        <div class="icons">
-          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook fa-sm"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram fa-sm"></i></a>
-          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter fa-sm"></i></a>
-        </div>
-      </div>
-
-      <div class="image">
-        <img src="IMG_2942.JPG" alt="Portrait of Olamide Olatunde">
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="section-header">
-        <span>Recent Work</span>
-        <h2>Projects</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <h3>Creative Landing Page</h3>
-          <p>A responsive landing page with modern animation, clean visuals, and a strong call to action.</p>
-          <div class="project-tags">
-            <span>HTML</span><span>CSS</span><span>Responsive</span>
+    <main>
+      <section class="hero" id="home">
+        <div class="info">
+          <h3>Hi, I'm <span>Olamide Olatunde</span> known as <span>OlaByt</span></h3>
+          <h1>Web <span>Designer</span> &amp; Developer</h1>
+          <p>Passionate about creating beautiful and functional websites with modern design, smooth interactions, and strong branding.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
           </div>
-        </article>
-        <article class="project-card">
-          <h3>Brand Portfolio</h3>
-          <p>A polished portfolio layout that highlights branding, imagery, and project storytelling.</p>
-          <div class="project-tags">
-            <span>Design</span><span>UI</span><span>Portfolio</span>
-          </div>
-        </article>
-        <article class="project-card">
-          <h3>Interactive UI</h3>
-          <p>Clean interface with hover effects, iconography, and a mobile-friendly experience.</p>
-          <div class="project-tags">
-            <span>UI</span><span>UX</span><span>Animation</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="skills" id="skills">
-      <div class="section-header">
-        <span>What I Do</span>
-        <h2>Skills</h2>
-      </div>
-      <div class="skill-list">
-        <div class="skill-item">
-          <div class="skill-title">
-            <h3>Web Design</h3>
-            <span>90%</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-fill" style="width: 90%;"></div>
+          <div class="icons">
+            <a href="https://github.com/olamideolatunde079-spec" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github fa-sm"></i></a>
+            <a href="https://x.com/Olamideola205" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">
+              <svg class="x-logo" viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="mailto:olamideolatunde079@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope fa-sm"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram fa-sm"></i></a>
           </div>
         </div>
-        <div class="skill-item">
-          <div class="skill-title">
-            <h3>Front-End</h3>
-            <span>85%</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-fill" style="width: 85%;"></div>
-          </div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-title">
-            <h3>Responsive Layouts</h3>
-            <span>95%</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-fill" style="width: 95%;"></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="contact" id="contact">
-      <div class="section-header">
-        <span>Get In Touch</span>
-        <h2>Contact Me</h2>
-      </div>
-      <p>If you have a project idea or want to collaborate, send a message and let's create something amazing.</p>
-      <a href="mailto:olamideolatunde079@gmail.com" class="btn">Send Email</a>
-    </section>
+        <div class="image">
+          <img src="IMG_2942.JPG" alt="Portrait of Olamide Olatunde">
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-header">
+          <span>Recent Work</span>
+          <h2>Projects</h2>
+        </div>
+
+        <!-- Featured Project: HandyNG -->
+        <div class="featured-project-wrapper">
+          <article class="project-card featured-card">
+            <div class="featured-card-content">
+              <div class="project-badges">
+                <span class="badge featured-badge"><i class="fa-solid fa-star"></i> Featured Project</span>
+                <span class="badge status-badge"><i class="fa-solid fa-clock-rotate-left"></i> In Development</span>
+              </div>
+              <h3>HandyNG</h3>
+              <p class="project-subtitle">Local Artisan &amp; Trusted Services Marketplace</p>
+              <p class="project-desc">A comprehensive marketplace platform connecting clients with vetted local artisans and verified service professionals, offering seamless booking, reliability, and service transparency.</p>
+              <div class="project-tags">
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Supabase</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/olamideolatunde079-spec/HandyNG" target="_blank" rel="noopener noreferrer" class="btn btn-sm">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Grid of Projects -->
+        <div class="project-grid">
+          <!-- ObytChat (formerly SmartChat) -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-comments"></i> Real-Time</span>
+            </div>
+            <h3>ObytChat</h3>
+            <p class="project-subtitle">Real-time chat application</p>
+            <p class="project-desc">A responsive real-time messaging application featuring instant message delivery, dynamic conversation rooms, and scalable event handling.</p>
+            <div class="project-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>Supabase</span>
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+            </div>
+          </article>
+
+          <!-- Banking Application UI -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-credit-card"></i> UI / Frontend</span>
+            </div>
+            <h3>Banking Application UI</h3>
+            <p class="project-subtitle">Responsive banking dashboard &amp; interface</p>
+            <p class="project-desc">A responsive banking dashboard and frontend interface presenting clean account balances, transaction histories, analytics, and intuitive financial navigation.</p>
+            <div class="project-tags">
+              <span>Next.js</span>
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </article>
+
+          <!-- Smart To-Do -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-list-check"></i> Productivity</span>
+            </div>
+            <h3>Smart To-Do</h3>
+            <p class="project-subtitle">Task management application</p>
+            <p class="project-desc">A streamlined task management application with intuitive task organization, completion tracking, persistent browser storage with LocalStorage, and clean UI.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>LocalStorage</span>
+            </div>
+          </article>
+
+          <!-- WeatherApp "OWeather" -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-cloud-sun"></i> Weather App</span>
+            </div>
+            <h3>OWeather</h3>
+            <p class="project-subtitle">Real-time weather forecast application</p>
+            <p class="project-desc">A fast, responsive weather application delivering live meteorological forecasts, temperature metrics, location searches, and intuitive climate condition visuals.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Weather API</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+            </div>
+          </article>
+
+          <!-- Clockin system "Sandlip Clockin System" -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-user-clock"></i> Attendance System</span>
+            </div>
+            <h3>Sandlip Clockin System</h3>
+            <p class="project-subtitle">Staff attendance &amp; time tracking</p>
+            <p class="project-desc">A structured clock-in and workplace attendance tracking platform designed for reliable shift loggings, employee verification, and management oversight.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Database</span>
+              <span>HTML/CSS</span>
+            </div>
+          </article>
+
+          <!-- "Note-app" -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-note-sticky"></i> Note Taking</span>
+            </div>
+            <h3>Note-app</h3>
+            <p class="project-subtitle">Quick notes &amp; idea capture</p>
+            <p class="project-desc">An interactive digital note-taking application designed for rapid thought capture, seamless note editing, search filtering, and persistent offline storage.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>LocalStorage</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+            </div>
+          </article>
+
+          <!-- Carousel "Lifestyle Carousel" -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-category-badge"><i class="fa-solid fa-sliders"></i> UI Component</span>
+            </div>
+            <h3>Lifestyle Carousel</h3>
+            <p class="project-subtitle">Interactive UI component &amp; slider</p>
+            <p class="project-desc">A modern, touch-friendly image and content slider built with smooth hardware-accelerated transitions, responsive breakpoints, and intuitive controls.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>UI/UX</span>
+              <span>CSS Animation</span>
+              <span>HTML5</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="section-header">
+          <span>What I Do</span>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <!-- Frontend Category -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="category-info">
+                <h3>Frontend</h3>
+                <span class="skill-level-value">95%</span>
+              </div>
+            </div>
+            <div class="category-bar-wrapper">
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="skills-tag-list">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Tailwind CSS</span>
+            </div>
+          </div>
+
+          <!-- Backend Category -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <div class="category-info">
+                <h3>Backend</h3>
+                <span class="skill-level-value">80%</span>
+              </div>
+            </div>
+            <div class="category-bar-wrapper">
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skills-tag-list">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Database Category -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="category-info">
+                <h3>Database</h3>
+                <span class="skill-level-value">95%</span>
+              </div>
+            </div>
+            <div class="category-bar-wrapper">
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="skills-tag-list">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Supabase</span>
+            </div>
+          </div>
+
+          <!-- Tools Category -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <div class="category-info">
+                <h3>Tools</h3>
+                <span class="skill-level-value">100%</span>
+              </div>
+            </div>
+            <div class="category-bar-wrapper">
+              <div class="skill-bar">
+                <div class="skill-fill" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div class="skills-tag-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Linux</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-header">
+          <span>Get In Touch</span>
+          <h2>Contact Me</h2>
+        </div>
+        <div class="contact-box">
+          <p>If you have a project idea, an artisan platform collaboration, or want to build something impactful together, send a message!</p>
+          <div class="contact-info-list">
+            <a href="mailto:olamideolatunde079@gmail.com" class="contact-info-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-text">
+                <small>Email</small>
+                <span>olamideolatunde079@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://x.com/Olamideola205" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+              <div class="contact-icon">
+                <svg class="x-logo" viewBox="0 0 24 24" width="17" height="17" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <small>X / Twitter</small>
+                <span>@Olamideola205</span>
+              </div>
+            </a>
+            <a href="https://github.com/olamideolatunde079-spec" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-text">
+                <small>GitHub</small>
+                <span>olamideolatunde079-spec</span>
+              </div>
+            </a>
+          </div>
+          <a href="mailto:olamideolatunde079@gmail.com" class="btn">Send Email</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Olamide Olatunde (OlaByt). All rights reserved.</p>
+    </footer>
   </div>
 </body>
-</html>                                                                             
+</html>
